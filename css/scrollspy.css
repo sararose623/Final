@@ -1,0 +1,49 @@
+body{
+  position: relative;
+}
+ul.nav-pills {
+      top: 200px;
+      position: fixed;
+  }
+  div.col-sm-9 div {
+      height: 200px;
+      font-size: 16px;
+  }
+
+  #scroll{
+    height: 615px;
+    width: 100%;
+    overflow: scroll;
+    position: absolute;
+    top: 20px;
+  }
+  #section1 {
+    width: 80%;
+    height: auto;
+    border: solid;
+  }
+  #section2 {
+    width: 80%;
+    height: auto;
+    border: solid;
+  }
+  #section3 {
+    width: 80%;
+    height: auto;
+    border: solid;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #section1, #section2, #section3  {
+        margin-left: 150px;
+    }
+  }
+
+  .resumeScroll{
+    font-family: candara;
+    font-size: 23pt;
+    /*border-bottom: solid 1px rgba(170, 140,170, .8);*/
+    padding: 0;
+    margin: 0;
+  }
+
