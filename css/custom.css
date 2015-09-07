@@ -161,6 +161,13 @@ h1{
 	font-size: 23pt;
 	
 }
+
+h2{
+	font-family: candara;
+	font-size: 23pt;
+	color: #0088cc;
+	/*opacity: .6;*/
+}
 p{
 	
 	font-family: arial;
@@ -200,4 +207,21 @@ p{
 	/*margin: 15px;*/
 
 
+}
+
+.large{
+	font-size: 18pt;
+	color: black;
+
+}
+
+.right{
+	position: absolute;
+	right: 0;
+
+}
+
+.indent{
+	position: relative;
+	left: 5%;
 }
