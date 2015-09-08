@@ -18,25 +18,28 @@ $('li').mouseleave(function() {
     // $('.img1').show();
 });
 
+ // $(".nav-tabs a").click(function(){
+ //        $(this).tab('show');
+ //    });
 
-
-// $(function() {
-// $('.img1').mouseover(function() { 
-// 	console.log(':)')
-//     $('.p1').show(); 
-//     $('.img1').hide();
-// }, function() { 
-//     $('.p1').toggle(); 
-// });
-// });
-
-// $(function() {
-// $('.p1').mouseover(function() { 
-//     $('.img').show(); 
-//     $('.p1').hide();
-// }, function() { 
-//     $('.img1').toggle(); 
-// });
-// });
+ //  $('li img').on('click',function(){
+ //                var src = $(this).attr('src');
+ //                var img = '<img src="' + src + '" class="img-responsive"/>';
+ //                $('#myModal').modal();
+ //                $('#myModal').on('shown.bs.modal', function(){
+ //                    $('#myModal .modal-body').html(img);
+ //                });
+ //                $('#myModal').on('hidden.bs.modal', function(){
+ //                    $('#myModal .modal-body').html('');
+ //                });
+ //           });
+document.getElementById('links').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
 
 });
