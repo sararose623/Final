@@ -23,6 +23,13 @@ body{
 
 }
 
+#homeIMG{
+	width: 100%;
+	height: 615px;
+	margin: 0;
+	padding: 0;
+}
+
 #mainGallery{
 	min-height: 615px;
 	max-height: 615px;
