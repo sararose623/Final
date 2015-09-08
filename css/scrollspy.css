@@ -7,12 +7,17 @@ ul.nav-pills {
       padding: 0;
       margin: 0;
 
+
   }
   div.col-sm-9 div {
       height: 200px;
       font-size: 16px;
       padding: 0;
       margin: 0;
+  }
+
+  .col-sm-9{
+    border-left: solid 1px black;
   }
 
   #scroll{

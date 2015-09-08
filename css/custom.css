@@ -23,6 +23,17 @@ body{
 
 }
 
+#mainGallery{
+	min-height: 615px;
+	max-height: 615px;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 0;
+	overflow-y: scroll;
+
+}
+
 #mainIMG{
 	margin: 0;
 	padding: 0;
@@ -145,6 +156,21 @@ nav ul li{
 	
 }
 
+.p3{
+	display: none;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14pt;
+	position: absolute;
+	top: 30%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	color: #0088cc;
+	
+}
+
 
 
 a:link{
@@ -156,9 +182,14 @@ a:visited{
 	text-decoration: none;
 }
 
+.p2:hover{
+	cursor: default;
+}
+
 h1{
 	font-family: candara;
 	font-size: 23pt;
+	
 	
 }
 
@@ -168,6 +199,14 @@ h2{
 	color: #0088cc;
 	text-align: center;
 }
+
+h3{
+	font-family: candara;
+	font-size: 23pt;
+	color: rgb(170,140,170);
+}
+
+
 p{
 	
 	font-family: arial;
@@ -209,6 +248,7 @@ p{
 
 }
 
+
 .large{
 	font-size: 16pt;
 	font-family: candara;
@@ -230,26 +270,33 @@ p{
 
 
 .gallery{
-	width: 120px;
-	height: 120px;
+	position: relative;
+	width: 180px;
+	height: 180px;
 	overflow: hidden;
 	padding: 0;
 	margin: 5px;
 }
 
 .gallery2{
-	width: 240px;
-	height: 120px;
+	position: relative;
+	width: 250px;
+	height: 180px;
 	overflow: hidden;
 	padding: 0;
 	margin: 5px;
 }
 
 .gallery3{
-	width: 380px;
-	height: 200px;
+	position: relative;
+	width: 300px;
+	height: 180px;
 	overflow: hidden;
 	padding: 5px;
 	margin: 5px;
 	border: solid 1px rgb(200,200,200);
 }
+
+
+
+
